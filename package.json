@@ -1,0 +1,22 @@
+{
+  "name": "git_ph_examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "MyBike.ts",
+  "scripts": {
+    "compile": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterharding/git_ph_example.git"
+  },
+  "author": "peter harding",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peterharding/git_ph_example/issues"
+  },
+  "homepage": "https://github.com/peterharding/git_ph_example#readme",
+  "devDependencies": {
+    "typescript": "^2.7.2"
+  }
+}
