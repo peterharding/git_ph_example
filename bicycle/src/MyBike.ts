@@ -1,4 +1,6 @@
 import { AluminumFrame } from "./AluminumFrame";
+import { Chain } from "./Chain";
+import { RustyChain } from "./RustyChain";
 import { Bicycle } from "./Bicycle"
 import { Brakes } from "./Brakes";
 import { Cogset } from "./Cogset";
@@ -12,6 +14,7 @@ import { Wheel } from "./wheel";
 
 export class MyBike implements Bicycle {
   public brakes: Brakes;
+  public chain: Chain;
   public frame: Frame;
   public gears: Cogset;
   public pedal: Pedal;
@@ -19,6 +22,7 @@ export class MyBike implements Bicycle {
 
   constructor() {
     this.brakes = new DiscBrakes();
+    this.chain = new RustyChain();
     this.frame = new AluminumFrame();
     this.gears = new NineSpeed;
     this.pedal = new PlatformPedal();
