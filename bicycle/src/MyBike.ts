@@ -1,8 +1,8 @@
+import { AluminumFrame } from "./AluminumFrame";
 import { Bicycle } from "./Bicycle"
 import { Frame } from "./frame";
-import { Wheel } from "./wheel";
-import { AluminumFrame } from "./AluminumFrame";
 import { RoadWheel } from "./RoadWheel";
+import { Wheel } from "./wheel";
 
 export class MyBike implements Bicycle {
   public frame: Frame;
