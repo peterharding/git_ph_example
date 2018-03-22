@@ -4,8 +4,8 @@ import { Pedal } from "./Pedal";
 import { PlatformPedal } from "./PlatformPedal";
 import { DiscBrakes } from "./DiscBrakes";
 import { Bicycle } from "./Bicycle"
-import { Frame } from "./frame";
-import { Wheel } from "./wheel";
+import { Frame } from "./Frame";
+import { Wheel } from "./Wheel";
 import { AluminumFrame } from "./AluminumFrame";
 import { RoadWheel } from "./RoadWheel";
 import { Brakes } from "./Brakes";
